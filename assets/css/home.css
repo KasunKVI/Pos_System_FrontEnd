@@ -1,0 +1,212 @@
+
+main{
+    height: 100vh;
+    padding-bottom: 180vh;
+}
+#account_details{
+    border: 2px solid;
+    border-color: white white brown brown;
+    text-align: center;
+    margin-left: 25vw;
+
+    position: absolute;
+    right: 0;
+}
+#account_details>div>img{
+    border-radius: 50%;
+    padding-top: 80px;
+}
+#account_details>div>div>h3{
+    margin-top: 5vh;
+}
+#account_details>div>div>p{
+    margin-top: 5vh;
+}
+#account_details>div>button{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.exp_items{
+    display: flex;
+    align-items: center;
+}
+.exp_items>img{
+    margin-left: 30px;
+}
+footer{
+    position: relative;
+    height: 15vh;
+}
+#company_logo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+footer>h4{
+    position: absolute;
+
+}
+#sales_chart{
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+#row2{
+    padding-top: 25vh;
+}
+#stocks{
+    padding-left: 20vw;
+}
+#row3{
+    padding-top: 20vh;
+}
+.promo{
+    padding-left: 18vw ;
+}
+footer>h4{
+    bottom: 2vh;
+    left: 4vw;
+}
+#place_order > a > img {
+    position: absolute;
+    right: 3vw;
+    top: 78vh;
+}
+
+
+@media all and (min-width:1024px){
+
+
+    #company_logo{
+        width: 120px;
+        height: 80px;
+
+    }
+    #problem_img{
+        position: absolute;
+        bottom: 4vh;
+        width:50px
+    }
+    #email{
+        position: absolute;
+        width: 50px;
+        bottom: 0;
+        left: 27vw;
+    }
+
+
+
+}
+@media all and (max-width:769px){
+
+
+    #place_order>a>img{
+        width: 150px;
+        margin-left: 35vw;
+        margin-top: 5vh;
+    }
+    .promo{
+        padding-left: 20vw ;
+    }
+    #company_logo{
+        width: 150px;
+    }
+    #problem_img{
+        width: 80px;
+        bottom: 0;
+    }
+    footer>h4{
+        font-size: 16px;
+    }
+
+}
+@media all and (max-width:640px) {
+    .promo{
+        padding-left: 26vw ;
+        padding-top: 15vh;
+
+    }
+    #place_order>a>img{
+        width: 100px;
+        margin-right: 6vw;
+        margin-top: 10vh;
+    }
+
+}
+@media all and (max-width:768px) {
+
+    .promo{
+        padding-left: 6vw ;
+        padding-top: 5vh;
+
+    }
+    #place_order>a>img{
+        width: 100px;
+        margin-right: 6vw;
+        margin-top: 5vh;
+    }
+
+}
+@media all and (max-width:425px){
+
+
+    #place_order>a>img{
+        width: 100px;
+        margin-right: 6vw;
+        margin-top: 10vh;
+    }
+
+
+    #row3{
+        padding-top: 10vh;
+    }
+    .promo{
+        padding-left: 25vw ;
+    }
+    #company_logo{
+        width: 100px;
+    }
+    #email, #problem_img{
+        width: 55px;
+        bottom: 0;
+
+    }
+    footer>h4{
+        font-size: 11px;
+    }
+}
+@media all and (max-width:1024px){
+
+    #company_logo{
+        width: 120px;
+        height: 80px;
+
+    }
+
+    #place_order>a>img{
+        width: 100px;
+        margin-right: 6vw;
+        margin-top: 15vh;
+    }
+
+}
+
+@media all and (max-width:1023px){
+
+
+     #problem_img{
+        width: 55px;
+        bottom: 0;
+
+    }
+    .promo{
+        padding-left: 8vw ;
+
+    }
+    #place_order>a>img{
+        width: 100px;
+        margin-right: 6vw;
+        margin-top: 10vh;
+    }
+
+
+}
