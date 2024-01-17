@@ -1,0 +1,133 @@
+.navbar-nav .nav-item {
+    margin-right: 40px;
+}
+#navbarMob {
+    display: none;
+    background: whitesmoke;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    padding-top: 25px;
+    width: 20vw;
+    height: 100vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#nav-icon-open,
+#nav-icon-close,
+#navbarMob {
+    transition: all 0.5s ease;
+}
+#navbarMob {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+#navbarMob>ul {
+    list-style: none;
+    margin: 0;
+}
+
+#navbarMob>ul>li {
+    margin-bottom: 5vh;
+    margin-left: 5vw ;
+    display: inline-grid;
+}
+#navbarMob>ul>li>a {
+
+}
+.nav-icon {
+    display: none;
+    height: fit-content;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+.user_icon{
+    display: none;
+    height: fit-content;
+    position: absolute;
+    right: 10vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+#account_details{
+    width: 25vw;
+    transition: all 0.5s ease;
+}
+#nav-icon-setting-close{
+    display: none;
+}
+@media all and (max-width:1023px){
+    #navbarNav{
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+    #nav-icon-close {
+        display: none;
+    }
+    .user_icon{
+        display: block;
+    }
+
+    #account_details {
+        z-index: 1;
+        opacity: 0;
+        top: -25vh;
+        display: none;
+        width: 35vw;
+        height: 65vh;
+    }
+
+}
+@media all and (max-width:768px){
+
+    #navbarMob {
+        width: 30vw;
+    }
+    #account_details{
+        width: 55vw;
+    }
+}
+@media all and (max-width:425px){
+
+    #navbarMob {
+        width: 30vw;
+    }
+    #account_details{
+        width: 35vw;
+    }
+}
+@media all and (max-width:320px){
+
+    #navbarMob {
+        width: 35vw;
+    }
+    #account_details{
+        width: 35vw;
+    }
+}
+@media all and (min-width:1024px){
+    #nav-icon-open {
+        display: none !important;
+    }
+    #nav-icon-close{
+        display: none !important;
+    }
+    #nav-icon-setting{
+        display: none !important;
+    }
+    #nav-icon-setting-close{
+        display: none !important;
+    }
+    #account_details{
+        display: block !important;
+    }
+}
